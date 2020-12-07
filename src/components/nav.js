@@ -24,6 +24,9 @@ export default function Nav() {
           <Link to="/">Blog</Link>
         </StyledLi>
         <StyledLi>
+          <Link to="/collection">Collection</Link>{" "}
+        </StyledLi>
+        <StyledLi>
           <Link to="/wantlist">Wantlist</Link>{" "}
         </StyledLi>
       </StyledUl>
